@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Listar Personas</title>
+</head>
+<body>
+Lista de los emplados
+
+<div>
+</div>
+
+<ul>
+    {% for listar in object_list %}
+    <li>{{listar}}</li>
+    {% endfor %}
+</ul>
+</div>
+
+<form method="GET">
+    <button type="submit" name="page" id="page">Siguente</button>
+</form>
+
+</body>
+</html>
