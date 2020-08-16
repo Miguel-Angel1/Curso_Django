@@ -16,7 +16,11 @@ from django.views.generic import (
 
 # 8.1.2 Importamos nuestro modelo: Empleadp
 from .models import Empleado
-
+#Seccion 11: Desarrollo del primer poryecto del curso
+#11.1 Esquema de la carpeta Templates
+#Vista que carga pagina de Inicio
+class InicioView(TemplateView):
+    template_name = 'inicio.html'
 
 class ListaAllEmpleados(ListView):
     model = Empleado

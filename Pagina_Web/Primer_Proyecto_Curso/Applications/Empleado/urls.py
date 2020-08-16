@@ -11,6 +11,12 @@ from . import views
 app_name = "empleado_app"
 
 urlpatterns = [
+    #Sección 11
+    #11.1 Esquema de las carpetas Templates
+    #URL para la vista de inicio
+    path('', views.InicioView.as_view(), name='inicio'),
+
+
     path('listar_empleados/', views.ListaAllEmpleados.as_view()),
     path('listar_departamento/', views.ListByArea.as_view()),
     # Sección 8: Vista en django
