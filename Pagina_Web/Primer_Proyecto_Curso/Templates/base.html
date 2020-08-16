@@ -13,6 +13,15 @@
 
 <body>
 {% block content %} {% endblock content %}
+<!--11.2 Include-Header-->
+<!-- JavaScript para funcionalidad de barra desplegable, -->
+    <script src="{% static 'JavaScript/vendor/jquery.js' %}"></script>
+    <script src="{% static 'JavaScript/vendor/what-input.js' %}"></script>
+    <script src="{% static 'JavaScript/vendor/foundation.min.js' %}"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
 </body>
 
 </html>
