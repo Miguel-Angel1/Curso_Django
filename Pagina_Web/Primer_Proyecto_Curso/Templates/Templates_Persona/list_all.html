@@ -1,25 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Listar Personas</title>
-</head>
-<body>
-Lista de los emplados
+{% extends 'base.html' %}
+{% block content %}
 
-<div>
+{% include "includes/header.html" %}
+
+<div class="grid-container">
+
+    <div class="grid-x">
+        <h1 class="cell">Lista Empleados</h1>
+        <div class="cell grid-x grid-margin-x">
+            <div class="cell large-7">
+                <input placeholder="Buscar empleado" type="text">
+            </div>
+            <div class="cell large-2">
+                <button class="success button" type="button">Buscar</button>
+            </div>
+        </div>
+        <div class="cell">
+            <table>
+                <thead>
+                <tr>
+                    <th width="200">ID</th>
+                    <th>Nombres</th>
+                    <th width="150">Apellidos</th>
+                    <th width="150">Departamento</th>
+                    <th>Accion</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for listar in object_list %}
+                <tr>
+                    <td>{{ listar.id }}</td>
+                    <td>{{ listar.first_name }}</td>
+                    <td>{{ listar.last_name }}</td>
+                    <td>{{ listar.departamento }}</td>
+                    <td><a class="button warning" href="#">Ver</a> </td>
+                </tr>
+                  {% endfor %}
+            </table>
+        </div>
+    </div>
 </div>
 
-<ul>
-    {% for listar in object_list %}
-    <li>{{listar}}</li>
-    {% endfor %}
-</ul>
-</div>
-
-<form method="GET">
-    <button type="submit" name="page" id="page">Siguente</button>
-</form>
-
-</body>
-</html>
+{% endblock content %}

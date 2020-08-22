@@ -3,8 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="00d01e40-d4fe-42c6-9e7a-c52cc5cf5387" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Departamento/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Departamento/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Empleado/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Empleado/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Home_Pruebas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Home_Pruebas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Primer_Proyecto_Curso/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Primer_Proyecto_Curso/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Primer_Proyecto_Curso/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Primer_Proyecto_Curso/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Primer_Proyecto_Curso/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/Primer_Proyecto_Curso/settings/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Primer_Proyecto_Curso/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Primer_Proyecto_Curso/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Home_Pruebas/grillas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Home_Pruebas/grillas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Home_Pruebas/listar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Home_Pruebas/listar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Home_Pruebas/prueba.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Home_Pruebas/prueba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/createview.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/createview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/deleteview.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/deleteview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/habilidades.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/habilidades.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/list_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/list_all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/list_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/list_area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/inicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +94,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596781771790" />
+    <state x="583" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597604740256">
+      <screen x="0" y="23" width="1680" height="995" />
+    </state>
+    <state x="583" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.995@0.23.1680.995" timestamp="1597604740256" />
     <state x="541" y="254" key="FileChooserDialogImpl" timestamp="1593583640282">
       <screen x="0" y="23" width="1680" height="995" />
     </state>
@@ -86,7 +109,7 @@
     <state x="219" y="111" key="SettingsEditor/0.0.1680.1050/1680.0.2048.1152@0.0.1680.1050" timestamp="1597292145891" />
     <state x="221" y="84" key="SettingsEditor/0.23.1440.845/1440.23.1920.1025/3360.-12.1920.1057@0.23.1440.845" timestamp="1591428835260" />
     <state x="1930" y="135" key="SettingsEditor/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1597108392666" />
-    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1597536338714">
+    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1598073774417">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.0.1680.1018/1680.23.1920.1057@0.0.1680.1018" timestamp="1596166661302" />
@@ -95,12 +118,12 @@
     <state x="517" y="348" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596508082816" />
     <state x="2271" y="358" key="com.intellij.ide.util.TipDialog/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1596774390049" />
     <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1360.745@0.23.1680.995" timestamp="1597189606387" />
-    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1597536338714" />
+    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1598073774417" />
     <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1920.1057@1680.23.1920.1057" timestamp="1593225476918" />
     <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.2048.1129/3728.23.1920.1057@0.23.1680.995" timestamp="1595047920024" />
     <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.2048.1129@0.23.1680.995" timestamp="1597291707001" />
     <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.2048.1129@1680.23.2048.1129" timestamp="1597162240790" />
-    <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995@0.23.1680.995" timestamp="1596949480355" />
+    <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995@0.23.1680.995" timestamp="1597601171897" />
     <state x="2550" y="382" key="com.intellij.ide.util.TipDialog/0.23.1920.1177/1920.0.2048.1152/3968.23.1920.1057@1920.0.2048.1152" timestamp="1595034280096" />
     <state x="428" y="250" width="824" height="550" key="find.popup" timestamp="1596088568803">
       <screen x="0" y="0" width="1680" height="1050" />

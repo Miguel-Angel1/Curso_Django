@@ -1,4 +1,3 @@
-import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 """
 Sección: 5.0 Vistas en Django
@@ -16,6 +15,7 @@ BASE_DIR = Path(__file__).ancestor(3)
 """
 
 from unipath import Path
+
 BASE_DIR = Path(__file__).ancestor(3)
 
 # Quick-start development settings - unsuitable for production
@@ -32,18 +32,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #Apps de terceros
+    # Apps de terceros
 
-    #Sección 4:
-    #4.4 Instalando un app en Django
-    #Debemos indicarle a django que instala las apps que hemos creado
+    # Sección 4:
+    # 4.4 Instalando un app en Django
+    # Debemos indicarle a django que instala las apps que hemos creado
     'ckeditor',
     'Applications.Departamento',
     'Applications.Empleado',
 
-    #Sección 5: Vistas en Django
-    #5.2 Vistas Basadas en Clases – Aplicación Home_Pruebas.
-    #Instalación de a aplicación Home_Pruebas
+    # Sección 5: Vistas en Django
+    # 5.2 Vistas Basadas en Clases – Aplicación Home_Pruebas.
+    # Instalación de a aplicación Home_Pruebas
     'Applications.Home_Pruebas',
 
 ]
@@ -64,7 +64,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
 
-        #5.4.1: Agregación de nuestro directorio Templates donde estaran todos nuestros html
+        # 5.4.1: Agregación de nuestro directorio Templates donde estaran todos nuestros html
         'DIRS': [BASE_DIR.child('Templates')],
 
         'APP_DIRS': True,
@@ -111,6 +111,3 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-
-

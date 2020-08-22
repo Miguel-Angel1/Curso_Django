@@ -16,17 +16,19 @@ from django.views.generic import (
 
 # 8.1.2 Importamos nuestro modelo: Empleadp
 from .models import Empleado
-#Seccion 11: Desarrollo del primer poryecto del curso
-#11.1 Esquema de la carpeta Templates
-#Vista que carga pagina de Inicio
+
+
+# Seccion 11: Desarrollo del primer poryecto del curso
+# 11.1 Esquema de la carpeta Templates
+# Vista que carga pagina de Inicio
 class InicioView(TemplateView):
     template_name = 'inicio.html'
 
+
 class ListaAllEmpleados(ListView):
     model = Empleado
-    paginate_by = 2
+    paginate_by = 4
     template_name = 'Templates_Persona/list_all.html'
-
 
 # Sección 8: Vistas Basadas en Clases
 # 8.2 Filtros en un ListView.
@@ -40,6 +42,7 @@ class ListByArea(ListView):
     queryset = Empleado.objects.filter(
         departamento__short_name='administración'
     )
+
 
 # -------------------------Listado por Area-------------------------------------------
 # Sección 8: Vista en django
@@ -177,4 +180,3 @@ class EmpleadoDeleteView(DeleteView):
     model = Empleado
     template_name = "Templates_Persona/deleteview.html"
     success_url = reverse_lazy('empleado_app:correcto')
-

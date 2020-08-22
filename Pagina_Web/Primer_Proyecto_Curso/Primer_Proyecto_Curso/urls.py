@@ -12,9 +12,8 @@ from django.urls import path, re_path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path('', include('Applications.Departamento.urls')),
-    #5.2.5 Busqueda de urls en la app Home_Pruebas
+    # 5.2.5 Busqueda de urls en la app Home_Pruebas
     re_path('', include('Applications.Home_Pruebas.urls')),
     re_path('', include('Applications.Empleado.urls')),
 
 ]
-
