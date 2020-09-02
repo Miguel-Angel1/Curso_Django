@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00d01e40-d4fe-42c6-9e7a-c52cc5cf5387" name="Default Changelist" comment="">
+    <list default="true" id="00d01e40-d4fe-42c6-9e7a-c52cc5cf5387" name="Default Changelist" comment="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Departamento/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Departamento/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Empleado/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/list_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/list_all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/inicio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +58,14 @@
       <option name="presentableId" value="Default" />
       <updated>1591428804713</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree">
+      <created>1599028840599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599028840599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -78,6 +80,10 @@
         <option value="1" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2183" y="196" key="#Inspections" timestamp="1596785724118">
