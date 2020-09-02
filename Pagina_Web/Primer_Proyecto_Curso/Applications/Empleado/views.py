@@ -30,6 +30,7 @@ class ListaAllEmpleados(ListView):
     paginate_by = 4
     template_name = 'Templates_Persona/list_all.html'
 
+
 # Sección 8: Vistas Basadas en Clases
 # 8.2 Filtros en un ListView.
 # Creamos una clase para filtrar por areas, mediante filtro, apuntado al campo departamento del modelo Empleado, este campo

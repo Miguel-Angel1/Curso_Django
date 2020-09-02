@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <!-- Heredando archivos base-->
 {% extends 'base.html' %}
-
 {% load static %}
-{% block title %}Pagina de Inicio Sistema de Empleados {% endblock title %}
+
+{% block title %}
+Pagina de Inicio Sistema de Empleados
+{% endblock title %}
 
 {% block content %}
 {% include 'includes/header.html' %}
-
 <!-- 11.3 Pantalla de Inicio: Imagen de portada-->
 <div aria-label="Favorite Space Pictures" class="orbit" data-orbit role="region">
     <div class="orbit-wrapper">
@@ -25,17 +26,15 @@
             <li class="orbit-slide">
                 <figure class="orbit-figure">
                     <img alt="Space" class="orbit-image" src="{% static 'Images/slider.jpg' %}">
-
                 </figure>
             </li>
         </ul>
     </div>
 </div>
-
 <!-- 11.4 Texto -->
 <div class="grid-x align-center">
     <h1 class="cell large-8" style="font-size: 25px; text-align: center;">Bienvenido</h1>
-    <div class="cell large-7" >
+    <div class="cell large-7">
         <div class="callout success">
             <h5>Registra y controla Empleados</h5>
             <p>Nada</p>
@@ -44,5 +43,4 @@
     </div>
 </div>
 <!-- Fin de imagen de portada-->
-
 {% endblock content %}

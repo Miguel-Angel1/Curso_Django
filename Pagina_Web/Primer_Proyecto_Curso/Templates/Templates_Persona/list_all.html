@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 {% extends 'base.html' %}
 {% block content %}
-
 {% include "includes/header.html" %}
 
 <div class="grid-container">
-
     <div class="grid-x">
         <h1 class="cell">Lista Empleados</h1>
         <div class="cell grid-x grid-margin-x">
             <div class="cell large-7">
                 <input placeholder="Buscar empleado" type="text">
             </div>
-            <div class="cell large-2">
+            <div class="cell large-4">
                 <button class="success button" type="button">Buscar</button>
             </div>
         </div>
@@ -24,7 +22,7 @@
                     <th>Nombres</th>
                     <th width="150">Apellidos</th>
                     <th width="150">Departamento</th>
-                    <th>Accion</th>
+                    <th width="150">Accion</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -34,12 +32,11 @@
                     <td>{{ listar.first_name }}</td>
                     <td>{{ listar.last_name }}</td>
                     <td>{{ listar.departamento }}</td>
-                    <td><a class="button warning" href="#">Ver</a> </td>
+                    <td><a class="button warning" href="#">Detalles </a></td>
                 </tr>
-                  {% endfor %}
+                {% endfor %}
             </table>
         </div>
     </div>
 </div>
-
 {% endblock content %}
