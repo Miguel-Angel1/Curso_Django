@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="00d01e40-d4fe-42c6-9e7a-c52cc5cf5387" name="Default Changelist" comment="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Empleado/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Empleado/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Home_Pruebas/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Home_Pruebas/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Home_Pruebas/listar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Home_Pruebas/listar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/list_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/list_all.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +86,17 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree" />
     <option name="LAST_COMMIT_MESSAGE" value="Rama: Master&#10;Se realizó la validación de clonación de repositorio con Sourcetree" />
@@ -112,14 +128,13 @@
     </state>
     <state x="258" y="76" key="SettingsEditor/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596781712342" />
     <state x="219" y="111" key="SettingsEditor/0.0.1680.1050/1680.0.2048.1152@0.0.1680.1050" timestamp="1597292145891" />
-    <state x="221" y="84" key="SettingsEditor/0.23.1440.845/1440.23.1920.1025/3360.-12.1920.1057@0.23.1440.845" timestamp="1591428835260" />
     <state x="1930" y="135" key="SettingsEditor/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1597108392666" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1599027570069">
       <screen x="1680" y="23" width="1920" height="1025" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1680.1027/1680.23.1920.1025@1680.23.1920.1025" timestamp="1599027570069" />
-    <state x="2271" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1599027631960">
-      <screen x="1680" y="23" width="1920" height="1025" />
+    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1601004763253">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.0.1680.1018/1680.23.1920.1057@0.0.1680.1018" timestamp="1596166661302" />
     <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1597534747692" />
@@ -129,11 +144,11 @@
     <state x="2271" y="362" key="com.intellij.ide.util.TipDialog/0.23.1680.1027/1680.23.1920.1025@1680.23.1920.1025" timestamp="1599027631960" />
     <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1360.745@0.23.1680.995" timestamp="1597189606387" />
     <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1598073774417" />
-    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1920.1057@1680.23.1920.1057" timestamp="1598894093042" />
+    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.1920.1057@1680.23.1920.1057" timestamp="1601004763253" />
     <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.2048.1129/3728.23.1920.1057@0.23.1680.995" timestamp="1595047920024" />
     <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.2048.1129@0.23.1680.995" timestamp="1597291707001" />
     <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995/1680.23.2048.1129@1680.23.2048.1129" timestamp="1598377585239" />
-    <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995@0.23.1680.995" timestamp="1597601171897" />
+    <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.995@0.23.1680.995" timestamp="1600297392252" />
     <state x="2550" y="382" key="com.intellij.ide.util.TipDialog/0.23.1920.1177/1920.0.2048.1152/3968.23.1920.1057@1920.0.2048.1152" timestamp="1595034280096" />
     <state x="428" y="250" width="824" height="550" key="find.popup" timestamp="1596088568803">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -146,7 +161,6 @@
     <state x="505" y="244" width="670" height="641" key="search.everywhere.popup" timestamp="1597109133915">
       <screen x="0" y="23" width="1680" height="995" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1591499848923" />
     <state x="505" y="244" width="670" height="641" key="search.everywhere.popup/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1597109133915" />
     <state x="2296" y="274" width="817" height="728" key="search.everywhere.popup/0.23.1680.995/1680.23.2048.1129@1680.23.2048.1129" timestamp="1594707939727" />
   </component>

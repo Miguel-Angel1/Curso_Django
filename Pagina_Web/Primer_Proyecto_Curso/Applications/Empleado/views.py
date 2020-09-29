@@ -27,9 +27,8 @@ class InicioView(TemplateView):
 
 class ListaAllEmpleados(ListView):
     model = Empleado
-    paginate_by = 4
+    paginate_by = 6
     template_name = 'Templates_Persona/list_all.html'
-
 
 # Sección 8: Vistas Basadas en Clases
 # 8.2 Filtros en un ListView.
@@ -174,9 +173,7 @@ class EmpleadoUpdateView(UpdateView):
     def form_valid(self, form):
         return super(EmpleadoUpdateView, self).form_valid(form)
 
-
 # ---------------------------DeleteView-------------------------
-
 class EmpleadoDeleteView(DeleteView):
     model = Empleado
     template_name = "Templates_Persona/deleteview.html"

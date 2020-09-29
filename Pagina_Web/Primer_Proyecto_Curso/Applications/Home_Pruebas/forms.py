@@ -5,7 +5,6 @@ from django import forms
 # Importamos el modelo con el cual vamos a trabajar
 from .models import Prueba
 
-
 # Creamos un formulario basado en un modelo.
 class PruebaForm(forms.ModelForm):
     class Meta:
