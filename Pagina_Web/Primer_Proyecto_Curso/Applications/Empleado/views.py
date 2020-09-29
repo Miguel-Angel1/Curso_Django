@@ -26,9 +26,13 @@ class InicioView(TemplateView):
 
 
 class ListaAllEmpleados(ListView):
-    model = Empleado
     paginate_by = 6
+    ordering = 'first_name'
     template_name = 'Templates_Persona/list_all.html'
+    def get_queryset(self):
+        palabra_clave = self.request.GET.get("kword", '')
+        lista = Empleado.objects.filter(first_name__icontains=palabra_clave)
+        return lista
 
 # Sección 8: Vistas Basadas en Clases
 # 8.2 Filtros en un ListView.

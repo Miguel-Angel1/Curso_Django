@@ -6,20 +6,20 @@
 <div class="grid-container">
     <div class="grid-x">
         <h1 class="cell">Lista Empleados</h1>
-        <div class="cell grid-x grid-margin-x">
+        <form class="cell grid-x grid-margin-x" METHOD="get">{% csrf_token %}
             <div class="cell large-7">
-                <input placeholder="Buscar empleado" type="text">
+                <input placeholder="Buscar empleado" id="kword" name="kword" type="text">
             </div>
             <div class="cell large-4">
-                <button class="success button" type="button">Buscar</button>
+                <button class="success button" type="submit">Buscar</button>
             </div>
-        </div>
+        </form>
         <div class="cell">
             <table>
                 <thead>
                 <tr>
                     <th width="30">ID</th>
-                    <th width="80">Nombres</th width="80">
+                    <th width="80">Nombres</th>
                     <th width="80">Apellidos</th>
                     <th width="80">Departamento</th>
                     <th width="20">Accion</th>
@@ -32,7 +32,7 @@
                     <td>{{ listar.first_name }}</td>
                     <td>{{ listar.last_name }}</td>
                     <td>{{ listar.departamento }}</td>
-                    <td><a class="button warning" href="#">Detalles </a></td>
+                    <td><a class="button warning" href="{% url 'empleado_app:lista_detallada' listar.id %}">Detalles </a></td>
                 </tr>
                 {% endfor %}
             </table>

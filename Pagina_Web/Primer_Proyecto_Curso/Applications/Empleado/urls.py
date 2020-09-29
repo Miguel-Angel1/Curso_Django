@@ -24,7 +24,7 @@ urlpatterns = [
     path('lista_function/<variable>/', views.ListByAreaFunction.as_view()),
     path('busqueda-empleado/', views.ListaEmpleadoByKeybor.as_view()),
     path('habilidades/', views.ListarHabilidadesEmpleado.as_view()),
-    path('Detailview/<pk>/', views.DetallaDeListaCompleta.as_view()),
+    path('Detailview/<pk>/', views.DetallaDeListaCompleta.as_view(), name='lista_detallada'),
     path('Registro/', views.EmpleadoCreateView.as_view()),
     path('success/', views.SuccessView.as_view(), name='correcto'),
     path('update/<pk>/', views.EmpleadoUpdateView.as_view(), name='modificar_empleado'),
