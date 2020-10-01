@@ -26,9 +26,10 @@ class InicioView(TemplateView):
 
 
 class ListaAllEmpleados(ListView):
-    paginate_by = 6
+    paginate_by = 5
     ordering = 'first_name'
     template_name = 'Templates_Persona/list_all.html'
+    context_object_name = 'paginado'
     def get_queryset(self):
         palabra_clave = self.request.GET.get("kword", '')
         lista = Empleado.objects.filter(first_name__icontains=palabra_clave)
@@ -105,7 +106,6 @@ class DetallaDeListaCompleta(DetailView):
         context = super(DetallaDeListaCompleta, self).get_context_data(**kwargs)
         context['Titulo'] = 'Prueba de context'
         return context
-
 
 # ------------------------------------CreateVew------------------------------------------------
 
