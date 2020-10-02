@@ -58,6 +58,7 @@ class ListByArea(ListView):
 # una variable proveniente del arhivo url.py
 class ListByAreaFunction(ListView):
     template_name = 'Templates_Persona/list_area.html'
+    context_object_name = 'listaAreasEmpleado'
 
     def get_queryset(self):
         area = self.kwargs['variable']

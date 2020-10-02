@@ -21,7 +21,7 @@ urlpatterns = [
     # Sección 8: Vista en django
     # 8.3 Parámetro por URL y filtro ListView
     # Envio de la variable a la vista.
-    path('lista_function/<variable>/', views.ListByAreaFunction.as_view()),
+    path('lista_function/<variable>/', views.ListByAreaFunction.as_view(), name='lista_area'),
     path('busqueda-empleado/', views.ListaEmpleadoByKeybor.as_view()),
     path('habilidades/', views.ListarHabilidadesEmpleado.as_view()),
     path('Detailview/<pk>/', views.DetallaDeListaCompleta.as_view(), name='lista_detallada'),
