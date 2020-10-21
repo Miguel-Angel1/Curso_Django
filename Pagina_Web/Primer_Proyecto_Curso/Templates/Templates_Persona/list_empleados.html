@@ -5,15 +5,7 @@
 
 <div class="grid-container">
     <div class="grid-x">
-        <h1 class="cell">Lista Empleados</h1>
-        <form METHOD="get" class="cell grid-x grid-margin-x">{% csrf_token %}
-            <div class="cell large-7">
-                <input id="kword" name="kword" placeholder="Buscar empleado" type="text">
-            </div>
-            <div class="cell large-4">
-                <button class="success button" type="submit">Buscar</button>
-            </div>
-        </form>
+        <h1 class="cell">Administrar Empleados</h1>
         <div class="cell">
             <table>
                 <thead>
@@ -32,7 +24,8 @@
                     <td>{{ listar.first_name }}</td>
                     <td>{{ listar.last_name }}</td>
                     <td>{{ listar.departamento }}</td>
-                    <td><a class="button warning" href="{% url 'empleado_app:lista_detallada' listar.id %}">Detalles</a>
+                    <td><a class="button success" href="{% url 'empleado_app:modificar_empleado' listar.id %}">Editar</a>
+                    <a class="button alert" href="{% url 'empleado_app:eliminar_empleado' listar.id %}">Eliminar</a>
                     </td>
                 </tr>
                 {% endfor %}

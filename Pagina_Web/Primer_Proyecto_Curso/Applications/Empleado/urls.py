@@ -29,4 +29,5 @@ urlpatterns = [
     path('success/', views.SuccessView.as_view(), name='correcto'),
     path('update/<pk>/', views.EmpleadoUpdateView.as_view(), name='modificar_empleado'),
     path('delete/<pk>/', views.EmpleadoDeleteView.as_view(), name='eliminar_empleado'),
+    path('listarAdmin/', views.ListaEmpleadosAdmin.as_view(), name='listar_empleados_administrador'),
 ]

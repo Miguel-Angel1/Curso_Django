@@ -16,5 +16,6 @@ urlpatterns = [
     path('registros/', views.ListarPrueba.as_view()),
     path('form/', views.PruebaCreateView.as_view(), name="prueba_add"),
     path('grillas/', views.Grillas.as_view(), name="foundation"),
+    path('Practica1/', views.Practica1.as_view(), name="foundation"),
 
 ]
