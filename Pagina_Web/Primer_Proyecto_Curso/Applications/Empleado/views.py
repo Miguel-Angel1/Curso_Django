@@ -165,7 +165,7 @@ class EmpleadoUpdateView(UpdateView):
               'job',
               'departamento',
               'habilidades']
-    success_url = reverse_lazy('empleado_app:correcto')
+    success_url = reverse_lazy('empleado_app:listar_empleados_administrador')
 
     # Recuperar algo antes de eviarlo ald Form_valid
     def post(self, request, *args, **kwargs):
