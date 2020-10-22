@@ -182,7 +182,7 @@ class EmpleadoUpdateView(UpdateView):
 class EmpleadoDeleteView(DeleteView):
     model = Empleado
     template_name = "Templates_Persona/deleteview.html"
-    success_url = reverse_lazy('empleado_app:correcto')
+    success_url = reverse_lazy('empleado_app:listar_empleados_administrador')
 
 # 11.11 Listar empleados
 class ListaEmpleadosAdmin(ListView):
