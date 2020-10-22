@@ -25,7 +25,7 @@ urlpatterns = [
     path('busqueda-empleado/', views.ListaEmpleadoByKeybor.as_view()),
     path('habilidades/', views.ListarHabilidadesEmpleado.as_view()),
     path('Detailview/<pk>/', views.DetallaDeListaCompleta.as_view(), name='lista_detallada'),
-    path('Registro/', views.EmpleadoCreateView.as_view()),
+    path('Registro/', views.EmpleadoCreateView.as_view(), name='registro_empleado'),
     path('success/', views.SuccessView.as_view(), name='correcto'),
     path('update/<pk>/', views.EmpleadoUpdateView.as_view(), name='modificar_empleado'),
     path('delete/<pk>/', views.EmpleadoDeleteView.as_view(), name='eliminar_empleado'),

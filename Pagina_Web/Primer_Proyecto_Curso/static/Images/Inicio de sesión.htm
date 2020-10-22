@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://localhost/Proyecto-Prod/Formularios/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <title>Inicio de sesión</title>
-    
-    <link rel="stylesheet" href="./Inicio de sesión_files/styles.css">
+
+    <link href="./Inicio de sesión_files/styles.css" rel="stylesheet">
 </head>
 <body>
-        <section id="principal">
-        <header id="encabezado"><h1>Tienda Estrella</h1>
-            <h4>Administración</h4>
-        </header>
+<section id="principal">
+    <header id="encabezado"><h1>Tienda Estrella</h1>
+        <h4>Administración</h4>
+    </header>
 
-        
-        <div id="formulario">    
-            <form action="http://localhost/Proyecto-Prod/Clases/validarLogin.php" method="POST">
-                <label for="usuario">Ingresa usuario</label>
-                <input type="text" name="usuario" required="" placeholder="Usuario">
-                
-                <label for="password">Password</label>
-                <input type="password" name="password" required="" placeholder="Contraseña">
-                
-                <span id="final"><input type="submit" value="Iniciar Sesión">
+
+    <div id="formulario">
+        <form action="http://localhost/Proyecto-Prod/Clases/validarLogin.php" method="POST">
+            <label for="usuario">Ingresa usuario</label>
+            <input name="usuario" placeholder="Usuario" required="" type="text">
+
+            <label for="password">Password</label>
+            <input name="password" placeholder="Contraseña" required="" type="password">
+
+            <span id="final"><input type="submit" value="Iniciar Sesión">
                 <p><a href="http://localhost/Proyecto-Prod/Formularios/#">¿Olvidaste tu contraseña?</a></p>
             
-                    </span></form></div>
-            
-    </section>
+                    </span></form>
+    </div>
 
-</body></html>
+</section>
+
+</body>
+</html>

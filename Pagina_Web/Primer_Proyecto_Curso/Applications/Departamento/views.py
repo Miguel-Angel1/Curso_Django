@@ -1,9 +1,9 @@
 # 9.5 Formularios simples
 # Importación de la vista generica FormView, vista que esta mas abajo de ocea en edit
-from django.views.generic.edit import FormView
-#11.8 Listar departamentos
-#Importat vistas
+# 11.8 Listar departamentos
+# Importat vistas
 from django.views.generic import ListView
+from django.views.generic.edit import FormView
 
 # Importación de modelo Empleado ubicado en otra ruta, ocea en applicatión
 from Applications.Empleado.models import Empleado
@@ -13,13 +13,13 @@ from .forms import NewDepartamentoForm
 from .models import Departamento
 
 
-
-#11.8 Listar departamento
-#Creamos
+# 11.8 Listar departamento
+# Creamos
 class ListarDepartamento(ListView):
     model = Departamento
     context_object_name = 'departamentos'
     template_name = 'Templates_Departamento/lista.html'
+
 
 # Craeción de la clase de tipo FormView, la cual no esta asociada a ningun modelo y permitira trabajar con 2 modelos a la vez
 class NewDepartamento(FormView):

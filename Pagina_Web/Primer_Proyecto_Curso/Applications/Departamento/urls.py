@@ -5,6 +5,7 @@ Sección 4:Sección 4: Entorno de trabajo optimo en Django
 from django.urls import path
 
 from . import views
+
 app_name = "departamento_app"
 
 urlpatterns = [

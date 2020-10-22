@@ -24,8 +24,9 @@
                     <td>{{ listar.first_name }}</td>
                     <td>{{ listar.last_name }}</td>
                     <td>{{ listar.departamento }}</td>
-                    <td><a class="button success" href="{% url 'empleado_app:modificar_empleado' listar.id %}">Editar</a>
-                    <a class="button alert" href="{% url 'empleado_app:eliminar_empleado' listar.id %}">Eliminar</a>
+                    <td><a class="button success"
+                           href="{% url 'empleado_app:modificar_empleado' listar.id %}">Editar</a>
+                        <a class="button alert" href="{% url 'empleado_app:eliminar_empleado' listar.id %}">Eliminar</a>
                     </td>
                 </tr>
                 {% endfor %}

@@ -5,6 +5,7 @@ from django.db import models
 # 6.4.1: Para trabajar con llaves foreaneas, debemos importar la tabla con la cual trabajaremos.
 from Applications.Departamento.models import Departamento
 
+
 # Create your models here.
 # 7.0 Administrador de Django
 # 7.2 Personalizar Tablas en el Administrador de Django
@@ -18,6 +19,7 @@ class Habilidades(models.Model):
 
     def __str__(self):
         return str(self.id) + '-' + self.habilidad
+
 
 # ------------------------------------Modelo Empleado----------------------------------------------
 # 6.4.2: Creamos el modelo
@@ -55,4 +57,4 @@ class Empleado(models.Model):
 
     def __str__(self):
         return str(self.id) + '-' + self.first_name + ' ' + self.last_name + ' ' + self.full_name
-        #return str(self.id) + '-' + self.first_name + ' ' + self.last_name
+        # return str(self.id) + '-' + self.first_name + ' ' + self.last_name

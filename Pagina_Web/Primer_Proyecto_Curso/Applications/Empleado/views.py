@@ -30,10 +30,12 @@ class ListaAllEmpleados(ListView):
     ordering = 'first_name'
     template_name = 'Templates_Persona/list_all.html'
     context_object_name = 'paginado'
+
     def get_queryset(self):
         palabra_clave = self.request.GET.get("kword", '')
         lista = Empleado.objects.filter(first_name__icontains=palabra_clave)
         return lista
+
 
 # Sección 8: Vistas Basadas en Clases
 # 8.2 Filtros en un ListView.
@@ -108,6 +110,7 @@ class DetallaDeListaCompleta(DetailView):
         context['Titulo'] = 'Prueba de context'
         return context
 
+
 # ------------------------------------CreateVew------------------------------------------------
 
 # 9.2 Redirección dentro de un CreateView – URL Name
@@ -136,7 +139,7 @@ class EmpleadoCreateView(CreateView):
 
     # 9.2 Redirección dentro de un CreateView – URL Name
     # uso del reverse_lazy para redireccion
-    success_url = reverse_lazy('empleado_app:correcto')
+    success_url = reverse_lazy('empleado_app:listar_empleados_administrador')
 
     # 9.3 Form Valid en CreateView
     # Funcion para hacer el full name
@@ -178,11 +181,13 @@ class EmpleadoUpdateView(UpdateView):
     def form_valid(self, form):
         return super(EmpleadoUpdateView, self).form_valid(form)
 
+
 # ---------------------------DeleteView-------------------------
 class EmpleadoDeleteView(DeleteView):
     model = Empleado
     template_name = "Templates_Persona/deleteview.html"
     success_url = reverse_lazy('empleado_app:listar_empleados_administrador')
+
 
 # 11.11 Listar empleados
 class ListaEmpleadosAdmin(ListView):

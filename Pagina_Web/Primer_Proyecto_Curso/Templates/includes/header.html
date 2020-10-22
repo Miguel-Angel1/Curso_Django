@@ -13,7 +13,7 @@
             <li class="menu-text">Empleados</li>
             <!--11.5 URL-Navegación en Template-->
             <li><a href="{% url 'empleado_app:listar_all_empleados'%}">Listar Empleados</a></li>
-             <li><a href="{% url 'departamento_app:listar'%}">Listar Departamentos</a></li>
+            <li><a href="{% url 'departamento_app:listar'%}">Listar Departamentos</a></li>
             <li><a href="{% url 'empleado_app:listar_empleados_administrador'%}">Administrar</a></li>
         </ul>
     </div>
@@ -23,10 +23,11 @@
                 <input placeholder='Buscar Empleado' type="search">
             </li>
             <li>
-                <button class="button" type="button">Registrar Nuevo</button>
+                <a class="button" href="{% url 'empleado_app:registro_empleado'%}">Registrar Nuevo</a>
             </li>
         </ul>
     </div>
 </div>
 </body>
 </html>
+

@@ -28,8 +28,10 @@ class PruebaList(ListView):
 class PruebaView(TemplateView):
     template_name = 'Templates_Home_Pruebas/prueba.html'
 
+
 class Practica1(TemplateView):
     template_name = 'Templates_Home_Pruebas/Practica1.html'
+
 
 # 10.5 Sistema Grillas Foundation Teoría.
 class Grillas(TemplateView):
