@@ -135,7 +135,9 @@ class EmpleadoCreateView(CreateView):
               'last_name',
               'job',
               'departamento',
-              'habilidades']
+              'habilidades',
+              'avatar',
+              ]
 
     # 9.2 Redirección dentro de un CreateView – URL Name
     # uso del reverse_lazy para redireccion

@@ -25,6 +25,9 @@ DATABASES = {
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 STATIC_URL = '/static/'
-
 # 10.2 Integración de archivos Estáticos
 STATICFILES_DIRS = [BASE_DIR.child('static')]
+
+#11.14 Archivos Multimedia
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR.child('media')

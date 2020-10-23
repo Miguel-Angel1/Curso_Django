@@ -3,20 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="00d01e40-d4fe-42c6-9e7a-c52cc5cf5387" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Departamento/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Departamento/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Departamento/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Departamento/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Empleado/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Empleado/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Empleado/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Applications/Empleado/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Empleado/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Home_Pruebas/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Home_Pruebas/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Home_Pruebas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Home_Pruebas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Primer_Proyecto_Curso/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/Primer_Proyecto_Curso/settings/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Primer_Proyecto_Curso/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Primer_Proyecto_Curso/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/createview.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/createview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/deleteview.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/deleteview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Templates_Persona/list_empleados.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/Templates_Persona/list_empleados.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Images/Inicio de sesión.htm" beforeDir="false" afterPath="$PROJECT_DIR$/static/Images/Inicio de sesión.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,12 +141,11 @@
       <screen x="1680" y="23" width="1920" height="1025" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1680.1027/1680.23.1920.1025@1680.23.1920.1025" timestamp="1599027570069" />
-    <state x="2134" y="660" key="com.intellij.ide.util.TipDialog" timestamp="1603337156508">
+    <state x="2134" y="660" key="com.intellij.ide.util.TipDialog" timestamp="1603415044449">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.0.1680.1018/1680.23.1920.1057@0.0.1680.1018" timestamp="1596166661302" />
+    <state x="2134" y="660" key="com.intellij.ide.util.TipDialog/0.0.1680.1018/1680.23.1920.1057@0.0.1680.1018" timestamp="1603415044449" />
     <state x="2271" y="373" key="com.intellij.ide.util.TipDialog/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1597534747692" />
-    <state x="517" y="348" key="com.intellij.ide.util.TipDialog/0.0.1680.1050/1680.0.2048.1152@0.0.1680.1050" timestamp="1594702317332" />
     <state x="517" y="348" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596508082816" />
     <state x="2271" y="358" key="com.intellij.ide.util.TipDialog/0.23.1680.1027/1680.0.1920.1080@1680.0.1920.1080" timestamp="1596774390049" />
     <state x="2271" y="362" key="com.intellij.ide.util.TipDialog/0.23.1680.1027/1680.23.1920.1025@1680.23.1920.1025" timestamp="1599027631960" />
@@ -180,6 +169,5 @@
       <screen x="0" y="23" width="1680" height="995" />
     </state>
     <state x="505" y="244" width="670" height="641" key="search.everywhere.popup/0.23.1680.995/1680.23.1920.1057@0.23.1680.995" timestamp="1597109133915" />
-    <state x="2296" y="274" width="817" height="728" key="search.everywhere.popup/0.23.1680.995/1680.23.2048.1129@1680.23.2048.1129" timestamp="1594707939727" />
   </component>
 </project>
