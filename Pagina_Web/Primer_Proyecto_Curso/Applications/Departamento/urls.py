@@ -10,5 +10,5 @@ app_name = "departamento_app"
 
 urlpatterns = [
     path('listaDepartamento/', views.ListarDepartamento.as_view(), name="listar"),
-    path('new-depa/', views.NewDepartamento.as_view(), name="new_depa"),
+    path('new-depa/', views.NewDepartamento.as_view(), name="nuevo_departamento"),
 ]

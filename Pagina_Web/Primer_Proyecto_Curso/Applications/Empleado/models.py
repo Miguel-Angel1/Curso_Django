@@ -26,10 +26,12 @@ class Habilidades(models.Model):
 class Empleado(models.Model):
     # 6.4.3: Aquí creamos una tupla, para la parte del campo Job, el cual puede seleccionar alguno de todos esos trabajos.
     JOB_CHOISES = (
-        ('0', 'Contador'),
-        ('1', 'Administrador'),
-        ('2', 'Economista'),
-        ('3', 'Otro')
+        ('0', 'Ayudante General'),
+        ('1', 'Supervisor'),
+        ('2', 'Encargado'),
+        ('3', 'Contador'),
+        ('4', 'Proveedor'),
+        ('5', 'Director General'),
     )
     first_name = models.CharField('Nombres', max_length=60)
     last_name = models.CharField('Apellidos', max_length=60)

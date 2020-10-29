@@ -12,6 +12,8 @@ from .forms import NewDepartamentoForm
 # Importación del modelo Departamento ubicado en esta mista app
 from .models import Departamento
 
+from django.urls import reverse_lazy
+
 
 # 11.8 Listar departamento
 # Creamos
@@ -26,7 +28,7 @@ class NewDepartamento(FormView):
     template_name = 'Templates_Departamento/nuevo_depa.html'
     # Llamada a form con el cual se construira el template
     form_class = NewDepartamentoForm
-    success_url = '/'
+    success_url = reverse_lazy('empleado_app:listar_empleados_administrador')
 
     # Creación del form_valid para validación antes de guardar en la base de datos.
     def form_valid(self, form):

@@ -1,22 +1,39 @@
 <!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% include "includes/header.html" %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{{ object.full_name }}</title>
 </head>
 <body>
-<h1>Empleado</h1>
-{{ Titulo }}
-{{ empleado }}
-
-
-<h3>Todos los datos </h3>
-<p>{{ emplead.first_name }}</p>
-<p>{{ empleado.last_name}}</p>
-<p>{{ empleado.job }}</p>
-<p>{{ empleado.departamento }}</p>
-<p>{{ empleado.habilidades }}</p>
-<p>{{ empleado.hoja_vida }}</p>
-
+<div class="grid-container">
+    <div class="grid-x grid-margin-x align-center">
+        <div class="cell large-4 card" style="width: 350px; margin-top: 10px;">
+            <div class="card-divider">
+                <h3>{{ empleado.get_job_display }}</h3>
+            </div>
+            {% if empleado.avatar %}
+            <img src="{{ empleado.avatar.url }}">
+            {% else %}
+            <img src="{% static 'Images/avatar.jpg' %}">
+            {% endif %}
+            <div class="card-section">
+                <p><h5>Nombre: {{ empleado.full_name }}</h5></p>
+                <p>Area: {{ empleado.departamento.short_name}}</p>
+                <p><span class="label">Habilidades:</span></p>
+                <ul class="vertical menu">
+                    {% for habilidades_empleado in empleado.habilidades.all %}
+                    <li>{{ habilidades_empleado.habilidad }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
+{% endblock content %}
+
