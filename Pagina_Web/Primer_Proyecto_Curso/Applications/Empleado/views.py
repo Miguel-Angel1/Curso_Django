@@ -16,7 +16,7 @@ from django.views.generic import (
 
 # 8.1.2 Importamos nuestro modelo: Empleadp
 from .models import Empleado
-
+from .forms import EmpleadoForm
 
 # Seccion 11: Desarrollo del primer poryecto del curso
 # 11.1 Esquema de la carpeta Templates
@@ -110,7 +110,6 @@ class DetallaDeListaCompleta(DetailView):
         context['Titulo'] = 'Prueba de context'
         return context
 
-
 # ------------------------------------CreateVew------------------------------------------------
 
 # 9.2 Redirección dentro de un CreateView – URL Name
@@ -131,13 +130,8 @@ class EmpleadoCreateView(CreateView):
     # fields = ('__all__')
 
     # 9.3 Form Valid en CreateView
-    fields = ['first_name',
-              'last_name',
-              'job',
-              'departamento',
-              'habilidades',
-              'avatar',
-              ]
+
+    form_class = EmpleadoForm
 
     # 9.2 Redirección dentro de un CreateView – URL Name
     # uso del reverse_lazy para redireccion
@@ -189,7 +183,6 @@ class EmpleadoDeleteView(DeleteView):
     model = Empleado
     template_name = "Templates_Persona/deleteview.html"
     success_url = reverse_lazy('empleado_app:listar_empleados_administrador')
-
 
 # 11.11 Listar empleados
 class ListaEmpleadosAdmin(ListView):
